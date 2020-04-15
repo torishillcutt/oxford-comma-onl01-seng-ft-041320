@@ -1,5 +1,5 @@
 def oxford_comma(array)
-when array.length < 3 do
+  if array.length < 3
   array.join(" and ")
-end
-end
+  end
+end  
